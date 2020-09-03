@@ -26,7 +26,8 @@ jQuery(document).ready(function($) {
         monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "Sepember", "October", "November", "December"];
 
     var ghostAPI = new GhostContentAPI({
-        url: config['content-api-url'],
+        // url: config['content-api-url'],
+        url: 'https://takeoffroll.com',
         key: config['content-api-key'],
         version: 'v3'
     });
