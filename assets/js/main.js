@@ -28,7 +28,8 @@ jQuery(document).ready(function($) {
     var ghostAPI = new GhostContentAPI({
         // url: config['content-api-url'],
         url: 'https://takeoffroll.com',
-        key: config['content-api-key'],
+        // key: config['content-api-key'],
+        key: '6b0bde4683001d8ea5721473fc',
         version: 'v3'
     });
 
