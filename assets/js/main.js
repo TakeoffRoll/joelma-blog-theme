@@ -2,6 +2,7 @@
  * Main JS file for Joelma
  */
 
+ 
 var config = {
     'share-selected-text': true,
     'load-more': false,
